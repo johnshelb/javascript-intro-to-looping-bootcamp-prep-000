@@ -1,20 +1,78 @@
-function forLoop(array){for (let i=0; i< 25;i++){
-  if (i === 1){
-    array.push('I am 1 strange loop.')
+// function forLoop(array){for (let i=0; i< 25;i++){
+//   if (i === 1){
+//     array.push('I am 1 strange loop.')
+//     }
+//     else {
+//       array.push(`I am ${i} strange loops.`)}}
+//   return array;
+// }
+// function whileLoop(number) {
+//   while (number >0){
+//     console.log(number);
+//     number -= 1
+//   }
+//   return 'done'
+// }
+//
+// function doWhileLoop(array) {
+// do {array.pop();
+//   return array
+// }while (maybeTrue())}
+
+
+
+
+
+
+function forLoop(array) {
+  for(var i = 0; i < 25; i++){
+    if (i === 1){
+      array.push("I am 1 strange loop")
     }
-    else {
-      array.push(`I am ${i} strange loops.`)}}
-  return array;
-}
-function whileLoop(number) {
-  while (number >0){
-    console.log(number);
-    number -= 1
+      else {
+        array.push(`I am ${i} strange loops`)
+      }
+    }
+    return array
   }
-  return 'done'
+
+
+function whileLoop(num) {
+  while (num > 0){
+    console.log(--num)
+  }
+  return "done"
 }
 
 function doWhileLoop(array) {
-do {array.pop();
+  do {array.shift()
+  }
+  while(array.length>0 && Math.random()>=0.5)
   return array
-}while (maybeTrue())}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
